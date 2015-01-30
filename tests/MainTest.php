@@ -1,21 +1,26 @@
 <?php
 
-class MainTest extends PHPUnit_Framework_TestCase {
 
-  /**
-   * @var Main
-   */
-  protected $object;
+class MainTest extends PHPUnit_Framework_TestCase
+{
 
-  protected function setUp() {
-    $this->object = new \Main;
-  }
+	/**
+	 * @var Main
+	 */
+	protected $object;
 
-  /**
-   * @test
-   */
-  public function methodReturnTrue() {
-    $this->assertTrue($this->object->method());
-  }
-  
+
+	protected function setUp()
+	{
+		$this->object = new \Main;
+	}
+
+
+	/**
+	 * @test
+	 */
+	public function methodReturnTrue()
+	{
+		$this->assertTrue($this->object->method());
+	}
 }

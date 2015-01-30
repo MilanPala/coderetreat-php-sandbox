@@ -2,14 +2,17 @@
   "name": "milanlempera/php-sandbox",
   "description": "Description of project phpSandbox.",
   "authors": [
-    {
-      "name": "milanlempera",
-      "email": "milanlempera@gmail.com"
-    }
+	{
+	  "name": "milanlempera",
+	  "email": "milanlempera@gmail.com"
+	}
   ],
   "require": {
   },
+  "require-dev": {
+	"phpunit/phpunit": "4.4.*"
+  },
   "autoload": {
-    "psr-0": {"": "src/"}
+	"psr-0": {"": "src/"}
   }
 }
